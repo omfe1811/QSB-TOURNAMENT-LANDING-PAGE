@@ -1,0 +1,49 @@
+QSB-TOURNAMENT-LANDING-PAGE/
+┣ qsb-website/
+┃ ┣ node_modules/
+┃ ┃
+┃ ┃ ┗ .package-lock.json
+┃ ┣ public/
+┃ ┃ ┣ fonts/
+┃ ┃ ┃ ┣ ALBAM___.TTF
+┃ ┃ ┃ ┣ ALBAS___.TTF
+┃ ┃ ┃ ┣ ALBA____.TTF
+┃ ┃ ┃ ┣ All Star Resort.ttf
+┃ ┃ ┃ ┣ Hagrid-Family-CC-BY-NCLicensepdf.pdf
+┃ ┃ ┃ ┣ Hagrid-Italic-trial.ttf
+┃ ┃ ┃ ┣ Hagrid-Regular-trial.ttf
+┃ ┃ ┃ ┣ Hagrid-Text-Extrabold-Italic-trial.ttf
+┃ ┃ ┃ ┣ Hagrid-Text-Extrabold-trial.ttf
+┃ ┃ ┃ ┣ Hagrid_by_Zetafonts.png
+┃ ┃ ┃ ┣ Neon.ttf
+┃ ┃ ┃ ┣ Neon80s.jpg
+┃ ┃ ┃ ┣ preview.jpg
+┃ ┃ ┃ ┣ readme.txt
+┃ ┃ ┃ ┣ read_me.pdf
+┃ ┃ ┃ ┣ Royalacid.ttf
+┃ ┃ ┃ ┗ Royalacid_o.ttf
+┃ ┃ ┗ vite.svg
+┃ ┣ src/
+┃ ┃ ┣ assets/
+┃ ┃ ┃ ┣ pictures/
+┃ ┃ ┃ ┃ ┣ inspo/
+┃ ┃ ┃ ┃ ┣ group picrure (1).webp
+┃ ┃ ┃ ┃ ┣ logo-removebg-preview.png
+┃ ┃ ┃ ┃ ┗ logo.jpg
+┃ ┃ ┃ ┗ preact.svg
+┃ ┃ ┣ app.css
+┃ ┃ ┣ app.jsx
+┃ ┃ ┣ index.css
+┃ ┃ ┗ main.jsx
+┃ ┣ .gitignore
+┃ ┣ design.html
+┃ ┣ index.html
+┃ ┣ package-lock.json
+┃ ┣ package.json
+┃ ┣ postcss.config.js
+┃ ┣ tailwind.config.js
+┃ ┗ vite.config.js
+┣ .gitattributes
+┣ contents.txt
+┣ figma-canva-links.txt
+┗ structure.txt
