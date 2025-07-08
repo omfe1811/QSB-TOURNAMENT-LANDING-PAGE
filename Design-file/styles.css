@@ -1,0 +1,294 @@
+@import "tailwindcss";
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	/* Hagrid Fonts */
+	--font-hagrid-extrabold-italic: "Hagrid Text Extrabold Italic", sans-serif;
+	--font-hagrid-extrabold: "Hagrid Text Extrabold", sans-serif;
+	--font-hagrid-regular: "Hagrid Regular", sans-serif;
+	--font-hagrid-italic: "Hagrid Italic", sans-serif;
+
+	/* Alba Fonts */
+	--font-alba-regular: "Alba Regular", sans-serif;
+	--font-alba-super: "Alba Super", sans-serif;
+	--font-alba-modern: "Alba Modern", sans-serif;
+
+	/* Royalacid Fonts */
+	--font-royalacid: "Royalacid", cursive;
+	--font-royalacid-outline: "Royalacid Outline", cursive;
+
+	/* Misc */
+	--font-allstar: "All Star Resort", cursive;
+	--font-neon: "Neon", cursive;
+	--dark-purple: #32146a;
+	--darkest-purple: #180a34ff;
+	--vibrant-orange: #f75c03;
+	--tea-green: #d0e3c4;
+	--magenta: #c45ab3;
+	--light-pink: #ffe5ea;
+}
+
+/* Prevent font size inflation */
+html {
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	background-color: var(--darkest-purple);
+	color: var(--light-pink);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+	line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+	text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+	color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+	min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+	scroll-margin-block: 5ex;
+}
+/* COLOR PALLETE */
+
+#color1 {
+	background-color: var(--light-pink);
+	color: var(--darkest-purple);
+}
+#color2 {
+	background-color: var(--dark-purple);
+}
+#color3 {
+	background-color: var(--magenta);
+}
+#color4 {
+	background-color: var(--vibrant-orange);
+}
+#color5 {
+	color: var(--darkest-purple);
+	background-color: var(--tea-green);
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+.padding {
+	padding: 1em;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.paragraph {
+	width: 50vw;
+}
+/*              COLOR PALLETE */
+.color {
+	width: 60rem;
+	height: 20rem;
+	display: grid;
+	align-items: center;
+	text-align: center;
+}
+
+/* #background {
+  background-image: url("pictures/pillars-of-creation.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 120rem;
+  min-height: 100rem;
+} */
+/*                    FONTS */
+/* TITLE FONT */
+.ahsing {
+	font-family: Header;
+	font-size: 10em;
+}
+
+/* HEADERS + NAVBAR FONT */
+/* <weight>: Use a value from 100 to 700 */
+.name-of-section {
+	font-size: 4rem;
+	font-weight: 500;
+	text-align: center;
+}
+.name-of-type {
+	background-color: var(--tea-green);
+	color: #021130;
+	margin-top: 3rem;
+}
+/* Hagrid Fonts */
+.font-hagrid-ex-b-i {
+	font-family: var(--font-hagrid-extrabold-italic);
+}
+.font-hagrid-ex-b {
+	font-family: var(--font-hagrid-extrabold);
+}
+.font-hagrid-reg {
+	font-family: var(--font-hagrid-regular);
+}
+.font-hagrid-i {
+	font-family: var(--font-hagrid-italic);
+}
+
+/* Alba Fonts */
+.font-alba-reg {
+	font-family: var(--font-alba-regular);
+}
+.font-alba-s {
+	font-family: var(--font-alba-super);
+}
+.font-alba-m {
+	font-family: var(--font-alba-modern);
+}
+
+/* Royalacid Fonts */
+.font-royal {
+	font-family: var(--font-royalacid);
+}
+.font-royal-o {
+	font-family: var(--font-royalacid-outline);
+}
+
+/* Misc Fonts */
+.font-allstar {
+	font-family: var(--font-allstar);
+}
+.font-neon {
+	font-family: var(--font-neon);
+}
+
+@font-face {
+	font-family: Header;
+	src: url("fonts/Hagrid-Text-Extrabold-Italic-trial.ttf");
+} /* Hagrid Font Variants */
+@font-face {
+	font-family: "Hagrid Text Extrabold Italic";
+	src: url("fonts/Hagrid-Text-Extrabold-Italic-trial.ttf");
+}
+@font-face {
+	font-family: "Hagrid Text Extrabold";
+	src: url("fonts/Hagrid-Text-Extrabold-trial.ttf");
+}
+@font-face {
+	font-family: "Hagrid Regular";
+	src: url("fonts/Hagrid-Regular-trial.ttf");
+}
+@font-face {
+	font-family: "Hagrid Italic";
+	src: url("fonts/Hagrid-Italic-trial.ttf");
+}
+
+/* Alba Font Variants */
+@font-face {
+	font-family: "Alba Regular";
+	src: url("fonts/ALBA____.TTF");
+}
+@font-face {
+	font-family: "Alba Super";
+	src: url("fonts/ALBAS___.TTF");
+}
+@font-face {
+	font-family: "Alba Modern";
+	src: url("fonts/ALBAM___.TTF");
+}
+
+/* Royalacid Fonts */
+@font-face {
+	font-family: "Royalacid";
+	src: url("fonts/Royalacid.ttf");
+}
+@font-face {
+	font-family: "Royalacid Outline";
+	src: url("fonts/Royalacid_o.ttf");
+}
+
+/* All Star Resort */
+@font-face {
+	font-family: "All Star Resort";
+	src: url("fonts/All Star Resort.ttf");
+}
+
+/* Neon Font */
+@font-face {
+	font-family: "Neon";
+	src: url("fonts/Neon.ttf");
+}
