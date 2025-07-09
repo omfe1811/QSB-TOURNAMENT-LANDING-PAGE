@@ -9,55 +9,68 @@
 }
 
 /* Font Faces */
+.font-hagridItalic {
+	font-family: "Hagrid Text Extrabold Italic";
+}
+.font-hagridRegular {
+	font-family: "Hagrid Text Extrabold", "sans-serif";
+}
+.font-hagridAltItalic {
+	font-family: "Hagrid Italic", "sans-serif";
+}
+
+.font-royalacid {
+	font-family: "Royalacid", "cursive";
+}
+.font-royalacidOutline {
+	font-family: "Royalacid Outline", "cursive";
+}
+.font-allstar {
+	font-family: "All Star Resort", "cursive";
+}
+.font-neon {
+	font-family: "Neon", "cursive";
+}
 @font-face {
 	font-family: "Hagrid Text Extrabold Italic";
 	src: url("/fonts/Hagrid-Text-Extrabold-Italic-trial.ttf") format("truetype");
 	font-weight: 800;
 	font-style: italic;
 }
+
 @font-face {
 	font-family: "Hagrid Text Extrabold";
-	src: url("/fonts/Hagrid-Text-Extrabold-trial.ttf") format("truetype");
+	src: url("/src/assets/fonts/Hagrid-Text-Extrabold-trial.ttf")
+		format("truetype");
 	font-weight: 800;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Hagrid Regular";
-	src: url("/fonts/Hagrid-Regular-trial.ttf") format("truetype");
+	src: url("/src/assets/fonts/Hagrid-Regular-trial.ttf") format("truetype");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "Hagrid Italic";
-	src: url("/fonts/Hagrid-Italic-trial.ttf") format("truetype");
+	src: url("/src/assets/fonts/Hagrid-Italic-trial.ttf") format("truetype");
 	font-style: italic;
 }
-@font-face {
-	font-family: "Alba Regular";
-	src: url("/fonts/ALBA____.TTF") format("truetype");
-}
-@font-face {
-	font-family: "Alba Super";
-	src: url("/fonts/ALBAS___.TTF") format("truetype");
-}
-@font-face {
-	font-family: "Alba Modern";
-	src: url("/fonts/ALBAM___.TTF") format("truetype");
-}
+
 @font-face {
 	font-family: "Royalacid";
-	src: url("/fonts/Royalacid.ttf") format("truetype");
+	src: url("/src/assets/fonts/Royalacid.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Royalacid Outline";
-	src: url("/fonts/Royalacid_o.ttf") format("truetype");
+	src: url("/src/assets/fonts/Royalacid_o.ttf") format("truetype");
 }
 @font-face {
 	font-family: "All Star Resort";
-	src: url("public/fonts/All Star Resort.ttf") format("truetype");
+	src: url("/src/assets/fonts/All Star Resort.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Neon";
-	src: url("/fonts/Neon.ttf") format("truetype");
+	src: url("/src/assets/fonts/Neon.ttf") format("truetype");
 }
 
 /* Reset */
@@ -103,14 +116,46 @@ select {
 .text-darkPurple {
 	color: var(--color-darkPurple);
 }
+.bg-darkestPurple {
+	background-color: var(--color-darkestPurple);
+}
+.text-darkestPurple {
+	color: var(--color-darkestPurple);
+}
+
+.bg-vibrantOrange {
+	background-color: var(--color-vibrantOrange);
+}
+.text-vibrantOrange {
+	color: var(--color-vibrantOrange);
+}
+
+.bg-teaGreen {
+	background-color: var(--color-teaGreen);
+}
+.text-teaGreen {
+	color: var(--color-teaGreen);
+}
+.bg-magenta {
+	background-color: var(--color-magenta);
+}
+.text-magenta {
+	color: var(--color-magenta);
+}
+.bg-lightPink {
+	background-color: var(--color-lightPink);
+}
+.text-lightPink {
+	color: var(--color-lightPink);
+}
 
 /* Light/Dark mode vars */
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
 	html {
 		background-color: white;
 		color: #213547;
 	}
-}
+} */
 
 /* @media (prefers-color-scheme: dark) {
 	:root {

@@ -1,6 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 export default {
 	content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-	mode: "jit",
 	theme: {
 		extend: {
 			colors: {
@@ -16,13 +16,16 @@ export default {
 				hagrid: ['"Hagrid Text Extrabold"', "sans-serif"],
 				hagridRegular: ['"Hagrid Regular"', "sans-serif"],
 				hagridAltItalic: ['"Hagrid Italic"', "sans-serif"],
-				alba: ['"Alba Regular"', "sans-serif"],
-				albaSuper: ['"Alba Super"', "sans-serif"],
-				albaModern: ['"Alba Modern"', "sans-serif"],
 				royalacid: ['"Royalacid"', "cursive"],
 				royalacidOutline: ['"Royalacid Outline"', "cursive"],
 				allstar: ['"All Star Resort"', "cursive"],
 				neon: ['"Neon"', "cursive"],
+			},
+			lineHeight: {
+				relaxed: "1.75", // Or whatever feels best
+				normal: "1.5",
+				tight: "1.25",
+				unified: "1.6", // Custom value you like
 			},
 		},
 	},
