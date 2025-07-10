@@ -40,37 +40,36 @@
 
 @font-face {
 	font-family: "Hagrid Text Extrabold";
-	src: url("/src/assets/fonts/Hagrid-Text-Extrabold-trial.ttf")
-		format("truetype");
+	src: url("/fonts/Hagrid-Text-Extrabold-trial.ttf") format("truetype");
 	font-weight: 800;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Hagrid Regular";
-	src: url("/src/assets/fonts/Hagrid-Regular-trial.ttf") format("truetype");
+	src: url("/fonts/Hagrid-Regular-trial.ttf") format("truetype");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "Hagrid Italic";
-	src: url("/src/assets/fonts/Hagrid-Italic-trial.ttf") format("truetype");
+	src: url("/fonts/Hagrid-Italic-trial.ttf") format("truetype");
 	font-style: italic;
 }
 
 @font-face {
 	font-family: "Royalacid";
-	src: url("/src/assets/fonts/Royalacid.ttf") format("truetype");
+	src: url("/fonts/Royalacid.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Royalacid Outline";
-	src: url("/src/assets/fonts/Royalacid_o.ttf") format("truetype");
+	src: url("/fonts/Royalacid_o.ttf") format("truetype");
 }
 @font-face {
 	font-family: "All Star Resort";
-	src: url("/src/assets/fonts/All Star Resort.ttf") format("truetype");
+	src: url("/fonts/All Star Resort.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Neon";
-	src: url("/src/assets/fonts/Neon.ttf") format("truetype");
+	src: url("/fonts/Neon.ttf") format("truetype");
 }
 
 /* Reset */
@@ -109,7 +108,6 @@ select {
 	font: inherit;
 }
 
-/* Example utility classes */
 .bg-darkPurple {
 	background-color: var(--color-darkPurple);
 }
@@ -148,22 +146,3 @@ select {
 .text-lightPink {
 	color: var(--color-lightPink);
 }
-
-/* Light/Dark mode vars */
-/* @media (prefers-color-scheme: light) {
-	html {
-		background-color: white;
-		color: #213547;
-	}
-} */
-
-/* @media (prefers-color-scheme: dark) {
-	:root {
-		--color-darkPurple: #1f0f47;
-		--color-darkestPurple: #0e0626ff;
-		--color-vibrantOrange: #d14400;
-		--color-teaGreen: #a0b089;
-		--color-magenta: #8a3f87;
-		--color-lightPink: #ffc7d1;
-	}
-} */

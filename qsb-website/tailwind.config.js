@@ -2,7 +2,7 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		extend: {
+		extend: {   
 			colors: {
 				darkPurple: "var(--color-darkPurple, #32146a)",
 				darkestPurple: "var(--color-darkestPurple, #180a34ff)",

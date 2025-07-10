@@ -1,5 +1,6 @@
 import "./app.css";
 import "./index.css";
+import groupPicture from "/group.webp";
 
 export default function App() {
 	return (
@@ -17,27 +18,26 @@ export default function App() {
 				</h1>
 				<p className='m-4 text-lg '>font: Hagrid Text Extrabold</p>
 
-				<h1 className='m-4 text-4xl font-hagridAltItalic'>
+				{/* <h1 className='m-4 text-4xl font-hagridAltItalic'>
 					QUEER STREET BASKETBALL
 				</h1>
-				<p className='m-4 text-lg '>font: Hagrid Italic</p>
+				<p className='m-4 text-lg '>font: Hagrid Italic</p> */}
 
-				<h1 className='m-4 text-4xl font-royalacid'>QUEER STREET BASKETBALL</h1>
+				{/* <h1 className='m-4 text-4xl font-royalacid'>QUEER STREET BASKETBALL</h1>
 				<p className='m-4 text-lg '>font: Royalacid</p>
 
 				<h1 className='m-4 text-4xl font-royalacidOutline'>
 					QUEER STREET BASKETBALL
 				</h1>
-				<p className='m-4 text-lg '>font: Royalacid Outline</p>
+				<p className='m-4 text-lg '>font: Royalacid Outline</p> */}
 
 				<h1 className='m-4 text-4xl font-allstar'>QUEER STREET BASKETBALL</h1>
 				<p className='m-4 text-lg '>font: All Star Resort</p>
 
-				<h1 className='m-4 text-4xl font-neon'>QUEER STREET BASKETBALL</h1>
-				<p className='m-4 text-lg '>font: Neon</p>
+				{/* <h1 className='m-4 text-4xl font-neon'>QUEER STREET BASKETBALL</h1>
+				<p className='m-4 text-lg '>font: Neon</p> */}
 			</section>
-
-			{/* CONCEPT SECTION */}
+			r{/* CONCEPT SECTION */}
 			<section className='mb-12'>
 				<h2 className='mb-2 text-3xl font-medium'>CONCEPT</h2>
 				<p className='mb-6'>
@@ -53,7 +53,6 @@ export default function App() {
 					<li>Fundraising</li>
 				</ul>
 			</section>
-
 			{/* COLOR PALETTE SECTION */}
 			<section className='mb-12 '>
 				<h2 className='mb-6 text-3xl'>Color Palette</h2>
@@ -79,6 +78,14 @@ export default function App() {
 						<p className='text-sm'>#D0E3C4</p>
 					</div>
 				</div>
+			</section>
+			<section>
+				<h1>Pictures</h1>
+				<img
+					src={groupPicture}
+					alt='Group'
+					className='mx-auto shadow-lg w-100 rounded-xl'
+				/>
 			</section>
 		</main>
 	);
