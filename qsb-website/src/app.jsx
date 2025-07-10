@@ -1,6 +1,7 @@
 import "./app.css";
 import "./index.css";
 import groupPicture from "/group.webp";
+import logo from "/logo.jpg";
 
 export default function App() {
 	return (
@@ -18,26 +19,10 @@ export default function App() {
 				</h1>
 				<p className='m-4 text-lg '>font: Hagrid Text Extrabold</p>
 
-				{/* <h1 className='m-4 text-4xl font-hagridAltItalic'>
-					QUEER STREET BASKETBALL
-				</h1>
-				<p className='m-4 text-lg '>font: Hagrid Italic</p> */}
-
-				{/* <h1 className='m-4 text-4xl font-royalacid'>QUEER STREET BASKETBALL</h1>
-				<p className='m-4 text-lg '>font: Royalacid</p>
-
-				<h1 className='m-4 text-4xl font-royalacidOutline'>
-					QUEER STREET BASKETBALL
-				</h1>
-				<p className='m-4 text-lg '>font: Royalacid Outline</p> */}
-
 				<h1 className='m-4 text-4xl font-allstar'>QUEER STREET BASKETBALL</h1>
 				<p className='m-4 text-lg '>font: All Star Resort</p>
-
-				{/* <h1 className='m-4 text-4xl font-neon'>QUEER STREET BASKETBALL</h1>
-				<p className='m-4 text-lg '>font: Neon</p> */}
 			</section>
-			r{/* CONCEPT SECTION */}
+			{/* CONCEPT SECTION */}
 			<section className='mb-12'>
 				<h2 className='mb-2 text-3xl font-medium'>CONCEPT</h2>
 				<p className='mb-6'>
@@ -81,12 +66,33 @@ export default function App() {
 			</section>
 			<section>
 				<h1>Pictures</h1>
-				<img
-					src={groupPicture}
-					alt='Group'
-					className='mx-auto shadow-lg w-100 rounded-xl'
-				/>
+				<div className='flex flex-row'>
+					<img
+						src={groupPicture}
+						alt='Group'
+						className='mx-auto shadow-lg w-max h-100'
+					/>
+					<img
+						src={logo}
+						alt='QSB logo'
+						className='mx-auto shadow-lg w-100 h-100 rounded-xl '
+					/>
+				</div>
 			</section>
+			{/* <h1 className='m-4 text-4xl font-hagridAltItalic'>
+					QUEER STREET BASKETBALL
+				</h1>
+				<p className='m-4 text-lg '>font: Hagrid Italic</p> */}
+
+			{/* <h1 className='m-4 text-4xl font-royalacid'>QUEER STREET BASKETBALL</h1>
+				<p className='m-4 text-lg '>font: Royalacid</p>
+
+				<h1 className='m-4 text-4xl font-royalacidOutline'>
+					QUEER STREET BASKETBALL
+				</h1>
+				<p className='m-4 text-lg '>font: Royalacid Outline</p> */}
+			{/* <h1 className='m-4 text-4xl font-neon'>QUEER STREET BASKETBALL</h1>
+				<p className='m-4 text-lg '>font: Neon</p> */}
 		</main>
 	);
 }
