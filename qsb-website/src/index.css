@@ -1,11 +1,10 @@
 @import "tailwindcss";
 :root {
-	--color-darkPurple: #32146a;
-	--color-darkestPurple: #180a34ff;
-	--color-vibrantOrange: #f75c03;
-	--color-teaGreen: #d0e3c4;
-	--color-magenta: #c45ab3;
-	--color-lightPink: #ffe5ea;
+	--color-rosePink: #ff66c4ff;
+	--color-pictonBlue: #38b6ffff;
+	--color-mustard: #ffde59ff;
+	--color-black: #040303ff;
+	--color-indigo: #540d6eff;
 }
 
 /* Font Faces */
@@ -75,8 +74,8 @@
 /* Reset */
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	line-height: normal;
 }
 
 /* Base styles */
@@ -107,42 +106,42 @@ textarea,
 select {
 	font: inherit;
 }
-
-.bg-darkPurple {
-	background-color: var(--color-darkPurple);
+/* Rose Pink */
+.bg-rosePink {
+	background-color: var(--color-rosePink);
 }
-.text-darkPurple {
-	color: var(--color-darkPurple);
-}
-.bg-darkestPurple {
-	background-color: var(--color-darkestPurple);
-}
-.text-darkestPurple {
-	color: var(--color-darkestPurple);
+.text-rosePink {
+	color: var(--color-rosePink);
 }
 
-.bg-vibrantOrange {
-	background-color: var(--color-vibrantOrange);
+/* Picton Blue */
+.bg-pictonBlue {
+	background-color: var(--color-pictonBlue);
 }
-.text-vibrantOrange {
-	color: var(--color-vibrantOrange);
+.text-pictonBlue {
+	color: var(--color-pictonBlue);
 }
 
-.bg-teaGreen {
-	background-color: var(--color-teaGreen);
+/* Mustard */
+.bg-mustard {
+	background-color: var(--color-mustard);
 }
-.text-teaGreen {
-	color: var(--color-teaGreen);
+.text-mustard {
+	color: var(--color-mustard);
 }
-.bg-magenta {
-	background-color: var(--color-magenta);
+
+/* Black */
+.bg-black {
+	background-color: var(--color-black);
 }
-.text-magenta {
-	color: var(--color-magenta);
+.text-black {
+	color: var(--color-black);
 }
-.bg-lightPink {
-	background-color: var(--color-lightPink);
+
+/* Indigo */
+.bg-indigo {
+	background-color: var(--color-indigo);
 }
-.text-lightPink {
-	color: var(--color-lightPink);
+.text-indigo {
+	color: var(--color-indigo);
 }

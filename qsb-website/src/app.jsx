@@ -1,69 +1,91 @@
 import "./app.css";
 import "./index.css";
 import groupPicture from "/group.webp";
-import logo from "/logo.jpg";
+import logo from "/logo-new.png";
 
 export default function App() {
 	return (
-		<main className='min-h-screen p-6 bg-darkestPurple text-lightPink '>
-			{/* FONT PREVIEW SECTION */}
-			<section className='leading-unified'>
-				<h1 className='m-5 text-5xl '>HEADERS-HERO</h1>
-				<h1 className='m-4 text-4xl font-hagridItalic'>
-					QUEER STREET BASKETBALL
-				</h1>
-				<p className='m-4 text-lg '>font: Hagrid Text Extrabold Italic</p>
-
-				<h1 className='m-4 text-4xl font-hagridRegular'>
-					QUEER STREET BASKETBALL
-				</h1>
-				<p className='m-4 text-lg '>font: Hagrid Text Extrabold</p>
-
-				<h1 className='m-4 text-4xl font-allstar'>QUEER STREET BASKETBALL</h1>
-				<p className='m-4 text-lg '>font: All Star Resort</p>
-			</section>
+		<main className='p-12 text-white bg-black [&>*]:pb-10'>
 			{/* CONCEPT SECTION */}
-			<section className='mb-12'>
-				<h2 className='mb-2 text-3xl font-medium'>CONCEPT</h2>
-				<p className='mb-6'>
-					Landing page for a Queer Street Basketball tournament.
-				</p>
+			<section className='flex flex-row align-middle justify-evenly'>
+				<div>
+					<h1 className='text-5xl font-medium bg-rose_pink'>CONCEPT</h1>
+					<p className=''>
+						Landing page for a Queer Street Basketball tournament.
+					</p>
+				</div>
 
-				<h2 className='mb-2 text-3xl font-semibold'>MAIN ELEMENTS</h2>
-				<ul className='mb-8 space-y-1 list-disc list-inside'>
-					<li>Date, time, location</li>
-					<li>Registration Form</li>
-					<li>Info about the tournament</li>
-					<li>Info about QSB</li>
-					<li>Fundraising</li>
-				</ul>
+				<div>
+					<h1 className='text-5xl font-semibold '>MAIN ELEMENTS</h1>
+					<ul className='list-disc list-inside '>
+						<li>Date, time, location</li>
+						<li>Registration Form</li>
+						<li>Volounteering Form</li>
+						<li>Info about the tournament</li>
+						<li>Info about QSB</li>
+						<li>Fundraising</li>
+					</ul>
+				</div>
 			</section>
-			{/* COLOR PALETTE SECTION */}
-			<section className='mb-12 '>
-				<h2 className='mb-6 text-3xl'>Color Palette</h2>
-				<div className='grid grid-cols-2 gap-4 mb-8 md:grid-cols-5 h-[30vw]'>
-					<div className='flex flex-col items-center justify-center h-full p-4 bg-lightPink text-darkestPurple'>
-						<h1 className='text-2xl font-bold'>--light-pink</h1>
-						<p className='text-sm'>#FFE5EA</p>
+			{/* FONT PREVIEW SECTION */}
+			<section className='flex flex-col gap-6'>
+				<div>
+					<h1 className='text-5xl font-semibold text-center'>HEADERS-HERO</h1>
+
+					<div>
+						<h1 className='text-4xl font-hagridItalic'>
+							{" "}
+							OSLO QUEER STREET BASKETBALL
+						</h1>
+						<p className='text-lg '>font: Hagrid Text Extrabold Italic</p>
 					</div>
-					<div className='flex flex-col items-center justify-center h-full p-4 text-white bg-darkPurple'>
-						<h1 className='text-2xl font-bold'>--dark-purple</h1>
-						<p className='text-sm'>#32146a</p>
+					<h1 className='text-4xl font-hagridRegular'>
+						OSLO QUEER STREET BASKETBALL
+					</h1>
+					<p className='text-lg '>font: Hagrid Text Extrabold</p>
+
+					<h1 className='text-4xl font-allstar'>
+						OSLO QUEER STREET BASKETBALL
+					</h1>
+					<p className='text-lg '>font: All Star Resort</p>
+				</div>
+			</section>
+
+			<section className=''>
+				<h2 className='text-3xl '>Color Palette</h2>
+				<div className='grid grid-cols-2 gap-4  md:grid-cols-5 h-[30vw]'>
+					{/* Rose Pink */}
+					<div className='flex flex-col items-center justify-center h-full p-4 text-black bg-rosePink'>
+						<h1 className='text-2xl font-bold'>--color-rosePink</h1>
+						<p className='text-sm'>#FF66C4</p>
 					</div>
-					<div className='flex flex-col items-center justify-center h-full p-4 text-white bg-magenta'>
-						<h1 className='text-2xl font-bold'>--magenta</h1>
-						<p className='text-sm'>#C45AB3</p>
+
+					{/* Picton Blue */}
+					<div className='flex flex-col items-center justify-center h-full p-4 text-black bg-pictonBlue'>
+						<h1 className='text-2xl font-bold'>--color-pictonBlue</h1>
+						<p className='text-sm'>#38B6FF</p>
 					</div>
-					<div className='flex flex-col items-center justify-center h-full p-4 text-white bg-vibrantOrange'>
-						<h1 className='text-2xl font-bold'>--vibrant-orange</h1>
-						<p className='text-sm'>#F75C03</p>
+
+					{/* Mustard */}
+					<div className='flex flex-col items-center justify-center h-full p-4 text-black bg-mustard'>
+						<h1 className='text-2xl font-bold'>--color-mustard</h1>
+						<p className='text-sm'>#FFDE59</p>
 					</div>
-					<div className='flex flex-col items-center justify-center h-full p-4 bg-teaGreen text-darkestPurple'>
-						<h1 className='text-2xl font-bold'>--tea-green</h1>
-						<p className='text-sm'>#D0E3C4</p>
+
+					{/* Black */}
+					<div className='flex flex-col items-center justify-center h-full p-4 text-white bg-black'>
+						<h1 className='text-2xl font-bold'>--color-black</h1>
+						<p className='text-sm'>#040303</p>
+					</div>
+
+					{/* Indigo */}
+					<div className='flex flex-col items-center justify-center h-full p-4 text-white bg-indigo'>
+						<h1 className='text-2xl font-bold'>--color-indigo</h1>
+						<p className='text-sm'>#540D6E</p>
 					</div>
 				</div>
 			</section>
+
 			<section>
 				<h1>Pictures</h1>
 				<div className='flex flex-row'>
