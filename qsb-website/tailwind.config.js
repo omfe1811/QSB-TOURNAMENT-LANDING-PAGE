@@ -40,6 +40,9 @@ export default {
 					800: "#fff2bc",
 					900: "#fff8dd",
 				},
+				mint: {
+					500: "#fff8dd",
+				},
 				black: {
 					DEFAULT: "#040303",
 					100: "#010000",

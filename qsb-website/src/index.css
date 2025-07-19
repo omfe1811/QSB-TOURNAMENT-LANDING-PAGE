@@ -30,13 +30,130 @@
 .font-neon {
 	font-family: "Neon", "cursive";
 }
+.font-franchise {
+	font-family: "Franchise", sans-serif;
+}
+.font-franchiseFilled {
+	font-family: "Franchise Filled", sans-serif;
+}
+.font-franklin {
+	font-family: "Franklin M54", sans-serif;
+}
+.font-franklinItalic {
+	font-family: "Franklin Italic M54", sans-serif;
+}
+.font-sportGame {
+	font-family: "Sport Game", sans-serif;
+}
+.font-sporta {
+	font-family: "Sporta", sans-serif;
+}
+.font-sportaOutline {
+	font-family: "Sporta Outline", sans-serif;
+}
+
+.font-cameraObscura {
+	font-family: "Camera Obscura", serif;
+}
+.font-212sports {
+	font-family: "212 Sports", sans-serif;
+}
+.font-honeyBeachy {
+	font-family: "Honey Beachy", cursive;
+}
+.font-platinum {
+	font-family: "Platinum Sign", cursive;
+}
+.font-platinumOver {
+	font-family: "Platinum Sign Over", cursive;
+}
+.font-platinumUnder {
+	font-family: "Platinum Sign Under", cursive;
+}
+
+/* Franchise */
+@font-face {
+	font-family: "Franchise";
+	src: url("/fonts/Franchise.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Franchise Filled";
+	src: url("/fonts/FranchiseFilled.ttf") format("truetype");
+}
+/* Franklin */
+@font-face {
+	font-family: "Franklin M54";
+	src: url("/fonts/Franklin M54.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Franklin Italic M54";
+	src: url("/fonts/Franklin Italic M54.ttf") format("truetype");
+}
+/* Sport Game */
+@font-face {
+	font-family: "Sport Game";
+	src: url("/fonts/SPORT GAME PERSONAL USE ONLY!.ttf") format("truetype");
+}
+
+/* Sporta */
+@font-face {
+	font-family: "Sporta";
+	src: url("/fonts/Sporta.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Sporta Outline";
+	src: url("/fonts/Sporta Outline.ttf") format("truetype");
+}
+/* 212 Sports */
+@font-face {
+	font-family: "212 Sports";
+	src: url("/fonts/212 Sports.otf") format("opentype");
+}
+
+/* Camera Obscura */
+@font-face {
+	font-family: "Camera Obscura";
+	src: url("/fonts/CameraObscuraDEMO.otf") format("opentype");
+}
+/* Honey Beachy */
+@font-face {
+	font-family: "Honey Beachy";
+	src: url("/fonts/Honey Beachy Demo.ttf") format("truetype");
+}
+/* Platinum Sign Variants */
+@font-face {
+	font-family: "Platinum Sign";
+	src: url("/fonts/Platinum Sign.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Platinum Sign Over";
+	src: url("/fonts/Platinum Sign Over.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Platinum Sign Under";
+	src: url("/fonts/Platinum Sign Under.ttf") format("truetype");
+}
+/* Stora */
+@font-face {
+	font-family: "Stora";
+	src: url("/fonts/Stora.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Stora Light";
+	src: url("/fonts/Stora-Light.ttf") format("truetype");
+}
+.font-stora {
+	font-family: "Stora", serif;
+}
+.font-storaLight {
+	font-family: "Stora Light", serif;
+}
 @font-face {
 	font-family: "Hagrid Text Extrabold Italic";
 	src: url("/fonts/Hagrid-Text-Extrabold-Italic-trial.ttf") format("truetype");
 	font-weight: 800;
 	font-style: italic;
 }
-
 @font-face {
 	font-family: "Hagrid Text Extrabold";
 	src: url("/fonts/Hagrid-Text-Extrabold-trial.ttf") format("truetype");
